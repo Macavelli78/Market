@@ -14,7 +14,7 @@ app = Flask(__name__)
 def create_connection():
     try:
         connection = mysql.connector.connect(
-            host='localhost',  # Change to your MySQL server address
+            host='127.0.0.1',  # Change to your MySQL server address
             database='marketplace',  # Your database name
             user='root',  # Your MySQL username
             password='Draughtsman78'  # Your MySQL password
