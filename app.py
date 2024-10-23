@@ -14,10 +14,10 @@ app = Flask(__name__)
 def create_connection():
     try:
         connection = mysql.connector.connect(
-            host='localhost',  # Change to your MySQL server address
-            database='marketplace',  # Your database name
+            host='mysql.railway.internal',  # Change to your MySQL server address
+            database='railway',  # Your database name
             user='root',  # Your MySQL username
-            password='Draughtsman78'  # Your MySQL password
+            password='XoiYqQrsTTsFdUhuXMvlOQbtmNdmYWQa'  # Your MySQL password
         )
         if connection.is_connected():
             print("Connected to MySQL database")
